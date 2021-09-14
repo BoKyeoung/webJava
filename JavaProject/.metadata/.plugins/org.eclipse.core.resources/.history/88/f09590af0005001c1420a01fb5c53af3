@@ -1,0 +1,16 @@
+package ch05;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		Student studetLee = new Student(10, "Lee");
+		// studetLee.setKoreaSubject("국어", 100);
+		// studetLee.setMathSubject("수학", 80);
+		
+		// error -> null point
+		// studetLee.showStudentScore();
+
+	}
+
+}

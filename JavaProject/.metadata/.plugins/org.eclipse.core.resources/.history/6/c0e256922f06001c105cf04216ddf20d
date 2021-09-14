@@ -1,0 +1,9 @@
+package ch10;
+
+public class Zergling {
+	
+	private String name;
+	private int power;
+	private int hp;
+
+}

@@ -1,0 +1,13 @@
+package ch09;
+
+public class MainTest2 {
+
+	public static void main(String[] args) {
+		
+		Employee employee1 = new Employee("±èÃá½Ä");
+		Employee employee2 = new Employee("ÀÌÆ®¸°");
+		Employee employee3 = new Employee("»ï¾Ö½¬");
+
+	}
+
+}

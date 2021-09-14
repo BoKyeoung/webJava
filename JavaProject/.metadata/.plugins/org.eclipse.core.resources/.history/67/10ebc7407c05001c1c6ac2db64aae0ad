@@ -1,0 +1,29 @@
+package ch09;
+
+public class Employee {
+	
+	public static int serialNum = 1000;
+
+	private int employeeId;
+	private String employeeName;
+	private String department;
+	
+	public Employee(String employeeName) {
+		serialNum++;
+		employeeId = serialNum;
+		this.employeeName = employeeName;
+	}
+	// 문제 1. getEmployeeId
+	public int getEmployeeId() {
+		return this.employeeId;
+	}
+	// 문제 2. getEmployeeName
+	public String getEmployeeName() {
+		return this.employeeName;
+	}
+	// 문제 3. getDepartment;
+	public String getDepartment() {
+		return this.department;
+	}
+	
+}
